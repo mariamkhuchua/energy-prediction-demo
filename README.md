@@ -51,6 +51,3 @@ To be able to work with the notebook interactively you will require a Python env
     cd model-training
     pip install -r requirements.txt
     jupyter notebook
-
-
-If you want to read through documentation without installing Jupyter, please refer to the [pdf version](model-training/model-training-documentation.pdf).
