@@ -1,0 +1,20 @@
+apiVersion: 1
+
+datasources:
+  - name: es-simulated
+    type: elasticsearch
+    access: proxy
+    database: "kafka-simulated-consumption"
+    url: http://elasticsearch:9200
+    jsonData:
+      timeField: "timestamp"
+      esVersion: 70
+
+  - name: es-predicted
+    type: elasticsearch
+    access: proxy
+    database: "kafka-predicted-consumption"
+    url: http://elasticsearch:9200
+    jsonData:
+      timeField: "timestamp"
+      esVersion: 70

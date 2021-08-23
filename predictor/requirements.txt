@@ -1,0 +1,8 @@
+pandas==1.2.4
+numpy==1.19.5
+confluent_kafka==1.7.0
+requests==2.25.1
+fastavro==1.4.2
+avro-python3==1.10.0
+tensorflow==2.5.0
+jupyter==1.0.0

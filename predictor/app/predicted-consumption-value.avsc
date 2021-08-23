@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "prediction",
+  "fields": [
+    {
+      "name": "predicted_mw",
+      "type": "float"
+    }
+  ]
+}

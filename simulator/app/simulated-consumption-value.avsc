@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "consumption",
+  "fields": [
+    {
+      "name": "mw",
+      "type": "float"
+    },
+    {
+      "name": "temperature",
+      "type": "float"
+    },
+    {
+      "name": "daytime",
+      "type": "float"
+    }
+  ]
+}
