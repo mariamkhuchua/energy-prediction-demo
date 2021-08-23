@@ -44,7 +44,7 @@ You will be required to login to Grafana by using the following credentials.
 
 ## Read more about the data cleaning and predictive model training process
 
-Steps of data cleaning, predictive model architecture choice and model hyperparameter tuning are described in detail in [the Jupyter Notebook model training documentation](model_training/model-training-documentation.ipynb).
+Steps of data cleaning, predictive model architecture choice and model hyperparameter tuning are described in detail in [the Jupyter Notebook model training documentation](model-training/model-training-documentation.ipynb).
 
 To be able to work with the notebook interactively you will require a Python environment with Jupyter library and other required packages.
 
@@ -53,4 +53,4 @@ To be able to work with the notebook interactively you will require a Python env
     jupyter notebook
 
 
-If you want to read through documentation without installing Jupyter, please refer to the [pdf version](model_training/model-training-documentation.pdf).
+If you want to read through documentation without installing Jupyter, please refer to the [pdf version](model-training/model-training-documentation.pdf).
