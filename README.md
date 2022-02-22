@@ -2,7 +2,7 @@
 
 A use case demo for energy production optimization. In order to reduce energy use loss, accurate energy consumption prediction is necessary.
 
-The demo data has been provided by [Stromnetz Berlin Open Data](https://www.stromnetz.berlin/technik-und-innovationen/open-data).
+The demo data is provided by [Stromnetz Berlin Open Data](https://www.stromnetz.berlin/technik-und-innovationen/open-data).
 
 Several Tensorflow time-series forecasting model architectures and hyperparameter combinations have been tried and are documented in a Jupyter Notebook.
 The final model is a LSTM network taking 48 timesteps (consumption in mW, temperature, daytime) as input and producing predictions of 24 future timesteps (consumption in mW).
